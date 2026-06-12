@@ -1,0 +1,32 @@
+ARKUNAY — IMÁGENES NUEVAS PARA EL REPOSITORIO
+==============================================
+
+Este ZIP contiene 3 elementos que van DENTRO de la carpeta `imagenes/` de tu repo
+(github.com/enzomlt-hue/arkunay-site), junto a los img_01…27.webp que ya existen.
+NO borres ni muevas nada de lo que ya está.
+
+CÓMO SUBIRLO (GitHub web):
+1. Descomprime este ZIP en tu computadora.
+2. En GitHub, entra a la carpeta `imagenes/` del repo.
+3. "Add file" → "Upload files" → arrastra las carpetas `proyectos` y `360`
+   y el archivo `og.jpg`. GitHub respeta las subcarpetas al arrastrar.
+4. Commit. Netlify despliega solo.
+5. Reemplaza también el `index.html` de la raíz del repo por el nuevo.
+
+ESTRUCTURA RESULTANTE:
+imagenes/
+ ├─ img_01…27.webp        (ya existían — intactos)
+ ├─ og.jpg                (preview al compartir en WhatsApp/redes)
+ ├─ 360/
+ │   ├─ apolo.webp        (visor 360 de la página de inicio)
+ │   └─ flamant.webp      (visor 360 dentro de Parque Flamant)
+ └─ proyectos/
+     ├─ amawi/   01–07.webp
+     ├─ apolo/   01–12.webp
+     ├─ olivar/  01–07.webp
+     ├─ flamant/ 01–09.webp
+     ├─ cite/    01–09.webp
+     └─ tfm/     01–09.webp
+
+NOTA: los visores 360 no funcionan abriendo el index.html con doble clic
+(protocolo file:// del navegador). En Netlify funcionan perfecto.
